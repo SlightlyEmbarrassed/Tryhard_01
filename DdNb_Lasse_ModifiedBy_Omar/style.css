@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url('https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Images-wallpaper-new-PIC-WPC00923.jpg') no-repeat;
+  /*
+  background-size:  auto 100%;
+  background-position-x: -200px;
+  */
+  font-family: Arial;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 18px;
+}
+
+ul li {
+  float: left;
+  width: 20%;
+  height: 55px; /* not responsive (same value as line-height) */
+  background-color: black;
+  opacity: .8;
+  text-align: center;
+  line-height: 55px;
+  
+}
+
+a { /* if page gets bigger there is need for better declaration */
+  text-decoration: none;
+  width: auto;
+  color: white;
+  display: block;
+  height: 100%;
+}
+
+.dropdown li {
+  float: none;
+  display: none;
+  width: inherit;
+  height: inherit;
+  background-color: black;
+}
+
+.dd-trigger:hover ul li {
+  display: block;
+}
+
+ul li a:hover {
+  background-color: darkgray;
+}
